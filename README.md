@@ -100,30 +100,30 @@ Open your browser and navigate to http://localhost:3000 to run scans and view re
 🗂️ Project Structure
 
 recon-pro-max/
-├── bin/                       # Executable CLI entry point
+├── bin/                               # Executable CLI entry point
 │   └── recon.js
-├── core/                      # Engine scanner modules
-│   ├── aiEngine.js            # Shannon entropy & heuristics
-│   ├── classifier.js          # Finding severity mapping
-│   ├── crawler.js             # Asset discovery & fetching
-│   ├── deobfuscator.js        # JS unminification
-│   ├── falsePositive.js       # False positive reduction
-│   ├── graphqlDetector.js     # GraphQL probe engine
-│   ├── paramExtractor.js      # Parameter extractor & fuzzer
-│   ├── validator.js           # Secret matching regex rules
-│   ├── worker.js              # Multi-thread worker process
-│   └── workerPool.js          # Parallel execution thread pool
-├── config/                    # Detection rules & configurations
+├── core/                               # Engine scanner modules
+│   ├── aiEngine.js                     # Shannon entropy & heuristics
+│   ├── classifier.js                   # Finding severity mapping
+│   ├── crawler.js                      # Asset discovery & fetching
+│   ├── deobfuscator.js                 # JS unminification
+│   ├── falsePositive.js                # False positive reduction
+│   ├── graphqlDetector.js              # GraphQL probe engine
+│   ├── paramExtractor.js               # Parameter extractor & fuzzer
+│   ├── validator.js                    # Secret matching regex rules
+│   ├── worker.js                       # Multi-thread worker process
+│   └── workerPool.js                   # Parallel execution thread pool
+├── config/                             # Detection rules & configurations
 │   └── regexRules.json
-├── utils/                     # Logging & output handlers
+├── utils/                              # Logging & output handlers
 │   └── logger.js
-├── web/                       # Web Dashboard Application
-│   ├── public/                # Frontend assets & HTML UI
-│   ├── package.json           # Web dashboard dependencies
-│   └── server.js              # Express API server
-├── reports/                   # Saved scan output (.json / .html)
-├── package.json               # Root CLI package manager
-└── .gitignore                 # Dependency exclusions
+├── web/                                # Web Dashboard Application
+│   ├── public/                         # Frontend assets & HTML UI
+│   ├── package.json                    # Web dashboard dependencies
+│   └── server.js                       # Express API server
+├── reports/                            # Saved scan output (.json / .html)
+├── package.json                        # Root CLI package manager
+└── .gitignore                          # Dependency exclusions
 
 ⚠️ Disclaimer
 
