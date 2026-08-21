@@ -32,7 +32,6 @@ By leveraging Shannon Entropy calculations, AST-based heuristic analysis, and pa
 
 ## 📊 High-Level Engine Architecture
 
-```text
                ┌────────────────────────┐
                │    Target Website      │
                └───────────┬────────────┘
@@ -58,7 +57,9 @@ By leveraging Shannon Entropy calculations, AST-based heuristic analysis, and pa
           ┌────────────────┴────────────────┐
           ▼                                 ▼
 [ 🖥️ Interactive CLI ]             [ 📊 Web Dashboard UI ]
+
 📋 System Requirements
+
 Node.js: v18.0.0 or higher
 
 npm: v9.0.0 or higher
@@ -66,7 +67,7 @@ npm: v9.0.0 or higher
 Operating System: Linux (Kali, Ubuntu), macOS, or Windows WSL
 
 🛠️ Installation
-Bash
+
 # 1. Clone the repository
 git clone [https://github.com/YOUR-USERNAME/recon-pro-max.git](https://github.com/YOUR-USERNAME/recon-pro-max.git)
 
@@ -79,6 +80,7 @@ npm install
 # 4. Install Web Dashboard dependencies
 cd web && npm install && cd ..
 🖥️ Usage Guide
+
 Command Line Interface (CLI)
 Run a full security scan against a target domain:
 
@@ -96,7 +98,7 @@ npm run web
 Open your browser and navigate to http://localhost:3000 to run scans and view real-time findings.
 
 🗂️ Project Structure
-Plaintext
+
 recon-pro-max/
 ├── bin/                       # Executable CLI entry point
 │   └── recon.js
@@ -122,10 +124,13 @@ recon-pro-max/
 ├── reports/                   # Saved scan output (.json / .html)
 ├── package.json               # Root CLI package manager
 └── .gitignore                 # Dependency exclusions
+
 ⚠️ Disclaimer
+
 Recon Pro Max is built exclusively for authorized penetration testing, bug bounty research, and security audits. Do NOT execute scans against targets without prior written authorization. The developer assumes no liability for misuse or damage caused by this utility.
 
 🧑‍💻 Author
+
 Developed as an advanced JavaScript reconnaissance framework to demonstrate:
 
 Offensive Static Application Security Testing (SAST)
