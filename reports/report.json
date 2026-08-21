@@ -1,0 +1,255 @@
+{
+  "scanInfo": {
+    "target": "https://alliander.com",
+    "scannedAt": "2026-05-17T03:07:32.582Z",
+    "totalFiles": 15,
+    "scannedFiles": 15,
+    "errors": 0,
+    "totalFindings": 13
+  },
+  "findings": [
+    {
+      "file": "https://use.typekit.net/uau7gpt.js",
+      "results": [
+        {
+          "type": "base64_high_entropy",
+          "value": "\"7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191\"",
+          "line": 28,
+          "context": "\"primer\": \"7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191\"",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:22.088Z",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "base64_high_entropy",
+          "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=\"",
+          "line": 177,
+          "context": "for (var b = 0, c, d, e = 0, f = \"\"; d = a.charAt(e++); ~d && (c = b % 4 ? 64 * c + d : d, b++ % 4) ? f += String.fromCharCode(255 & c >> (-2 *",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:22.093Z",
+          "severity": "HIGH"
+        }
+      ],
+      "params": [],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:22.094Z"
+    },
+    {
+      "file": "https://consent.cookiebot.com/uc.js",
+      "results": [
+        {
+          "type": "datadog_key",
+          "value": "mutationHandlerFallbackMarkupTag",
+          "line": 1948,
+          "context": "}, this.mutationHandlerFallbackMarkupTag = function(doc, nodeType) {",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:22.737Z",
+          "severity": "MEDIUM"
+        }
+      ],
+      "params": [
+        "s",
+        "path",
+        "usercountry",
+        "iab2",
+        "gacm",
+        "action",
+        "nocache",
+        "cbid",
+        "lifetime",
+        "cbt",
+        "hasdata",
+        "method",
+        "referer",
+        "rc",
+        "dnt",
+        "clp",
+        "cls",
+        "clm",
+        "ticket",
+        "bulk"
+      ],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:22.738Z"
+    },
+    {
+      "file": "https://polyfill-fastly.io/v3/polyfill.min.js?unknown=polyfill&flags=gated&features=default%2Ces2015",
+      "results": [
+        {
+          "type": "base64_high_entropy",
+          "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=\"",
+          "line": 4920,
+          "context": "var r = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=\";",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:26.646Z",
+          "severity": "HIGH"
+        }
+      ],
+      "params": [
+        "b",
+        "a"
+      ],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:26.647Z"
+    },
+    {
+      "file": "https://alliander.com/kaliberjs/SiteHeaderMobileApp-4YIQJXVM.js",
+      "results": [
+        {
+          "type": "bugsnag_key",
+          "value": "a0cb7ab404c61196d6f979a0c3d73248",
+          "line": 346,
+          "context": "V = Array.from(document.querySelectorAll('*[data-componentid=\"a0cb7ab404c61196d6f979a0c3d73248\"]')),",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:29.615Z",
+          "severity": "MEDIUM"
+        }
+      ],
+      "params": [
+        "s"
+      ],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:29.615Z"
+    },
+    {
+      "file": "https://alliander.com/kaliberjs/NavigationXlApp-NFDVLMN4.js",
+      "results": [
+        {
+          "type": "bugsnag_key",
+          "value": "f4615ba494c2ee2f00c24cb2f8cf9cda",
+          "line": 464,
+          "context": "fe = Array.from(document.querySelectorAll('*[data-componentid=\"f4615ba494c2ee2f00c24cb2f8cf9cda\"]')),",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:30.563Z",
+          "severity": "MEDIUM"
+        }
+      ],
+      "params": [],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:30.563Z"
+    },
+    {
+      "file": "https://alliander.com/kaliberjs/LanguageSwitchApp-TK5DABOQ.js",
+      "results": [
+        {
+          "type": "bugsnag_key",
+          "value": "b5d2a95ee187fd4504facc9dc16000f9",
+          "line": 31,
+          "context": "d = Array.from(document.querySelectorAll('*[data-componentid=\"b5d2a95ee187fd4504facc9dc16000f9\"]')),",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:31.410Z",
+          "severity": "MEDIUM"
+        }
+      ],
+      "params": [],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:31.411Z"
+    },
+    {
+      "file": "https://alliander.com/kaliberjs/hero-full-extra-height-KLRURZHL.js",
+      "results": [
+        {
+          "type": "bugsnag_key",
+          "value": "5432b065a0768e16a1e55cca1cc8caa7",
+          "line": 52,
+          "context": "h = Array.from(document.querySelectorAll('*[data-componentid=\"5432b065a0768e16a1e55cca1cc8caa7\"]')),",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:32.253Z",
+          "severity": "MEDIUM"
+        }
+      ],
+      "params": [],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:32.253Z"
+    },
+    {
+      "file": "data:text/javascript;base64,CiAgICAgIHZhciBfcm9sbGJhckNvbmZpZyA9IHsKICAgICAgICBhY2Nlc3NUb2tlbjogImNm",
+      "results": [
+        {
+          "type": "bugsnag_key",
+          "value": "cfd1b74b1e2546f191aa171a86f0f187",
+          "line": 2,
+          "context": "accessToken: \"cfd1b74b1e2546f191aa171a86f0f187\",",
+          "confidence": "MEDIUM",
+          "category": "generic",
+          "indicators": "length, long_key",
+          "validatedAt": "2026-05-17T03:07:32.414Z",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "aws_secret_key",
+          "value": "0a4e83e61d078e26a177d2ea50c13998756dcc1b",
+          "line": 10,
+          "context": "code_version: \"0a4e83e61d078e26a177d2ea50c13998756dcc1b\"",
+          "confidence": "HIGH",
+          "category": "cloud",
+          "indicators": "length, long_key, AWS_Secret_Key",
+          "validatedAt": "2026-05-17T03:07:32.414Z",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "base64_high_entropy",
+          "value": "\"0a4e83e61d078e26a177d2ea50c13998756dcc1b\"",
+          "line": 10,
+          "context": "code_version: \"0a4e83e61d078e26a177d2ea50c13998756dcc1b\"",
+          "confidence": "HIGH",
+          "category": "cloud",
+          "indicators": "length, long_key, AWS_Secret_Key",
+          "validatedAt": "2026-05-17T03:07:32.414Z",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "aws_secret_key",
+          "value": "02b77f5a99641e0a27ae840fa268800dd5de812c",
+          "line": 208,
+          "context": "//This code is taken https://github.dev/rollbar/rollbar.js/blob/02b77f5a99641e0a27ae840fa268800dd5de812c/src/predicates.js",
+          "confidence": "HIGH",
+          "category": "cloud",
+          "indicators": "length, long_key, AWS_Secret_Key",
+          "validatedAt": "2026-05-17T03:07:32.414Z",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "AI_GENERIC_SECRET",
+          "value": "Token: \"cfd1b74b1e2546f191aa171a86f0f187",
+          "category": "generic",
+          "confidence": "MEDIUM",
+          "entropy": "4.14",
+          "entropyScore": 83,
+          "indicators": "length, long_key",
+          "position": 31,
+          "length": 40,
+          "validatedAt": "2026-05-17T03:07:32.414Z",
+          "severity": "HIGH"
+        }
+      ],
+      "params": [],
+      "gql": [],
+      "fuzz": [],
+      "scannedAt": "2026-05-17T03:07:32.414Z"
+    }
+  ]
+}
